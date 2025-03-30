@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from config import Settings
+from config.settings import Settings
 
 settings = Settings()
 
