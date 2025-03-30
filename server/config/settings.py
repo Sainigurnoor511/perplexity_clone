@@ -8,3 +8,7 @@ class Settings(BaseSettings):
     TAVILY_API_KEY: str = ""
     GEMINI_API_KEY: str = ""
     GROQ_API_KEY: str = ""
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
