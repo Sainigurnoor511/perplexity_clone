@@ -1,4 +1,4 @@
-from config import Settings
+from config.settings import Settings
 from tavily import TavilyClient
 import trafilatura
 
